@@ -1,7 +1,7 @@
-# Getting Started with Create React App
+# React Weather App
 
 This project was created as my personal pet project.
-The app provide search for a city and getting current weather conditions and forecast for the choosen point.
+The app provides a search for a city and gets current weather conditions and forecasts for the chosen point.
 
 <a href='https://sashazel.github.io/weather/'>Live app demo</a>
 
