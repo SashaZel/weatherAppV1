@@ -1,0 +1,101 @@
+.current-weather {
+    padding: 20px 5% 5% 5%;
+    min-height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.current-weather-header {
+    width: 100%;
+    color: rgb(245, 245, 245);
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.current-weather-header__right-child {
+    text-align: end;
+}
+
+.current-weather-footer {
+    padding: 0;
+    width: 100%;
+}
+
+.current-weather-footer__container {
+    padding: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteiner-margin {
+    margin: 10px 0;
+}
+
+.current-weather-footer__conditions {
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+
+}
+
+.current-weather-footer__temp {
+    margin: 0;
+    padding: 0;
+    font-size: 3.5em;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.theme-clear-day {
+    background: 
+        no-repeat center/50% url(../../../public/pictures/clear_day_small.png),
+        linear-gradient(rgb(255, 55, 0), rgb(255,173,0), rgb(255,173,0, 0));
+}
+
+.theme-cloudy-day {
+    background: 
+        no-repeat center/50% url(../../../public/pictures/cloudy_small.png),
+        linear-gradient(rgb(105, 147, 198), rgb(150, 202, 239), rgba(150, 202, 239, 0));
+}
+
+.theme-rain-day {
+    background: 
+        no-repeat center/50% url(../../../public/pictures/rain_small.png),
+        linear-gradient(rgb(93, 104, 117), rgb(140, 165, 183), rgba(140, 165, 183, 0));
+}
+
+.theme-snow-day {
+    background: 
+        no-repeat center/50% url(../../../public/pictures/snow_small.png),
+        linear-gradient(rgb(93, 104, 117), rgb(140, 165, 183), rgba(140, 165, 183, 0));
+}
+
+.theme-clear-night {
+    background: 
+        no-repeat center/50% url(../../../public/pictures/clear_night_small.png),
+        linear-gradient(rgb(28, 50, 90), rgb(40, 76, 161), rgb(63,91,156, 0));
+}
+
+.theme-cloudy-night {
+    background: 
+        no-repeat center/50% url(../../../public/pictures/cloudy_small.png),
+        linear-gradient(rgb(28, 50, 90), rgb(40, 76, 161), rgb(63,91,156, 0));
+}
+
+.theme-rain-night {
+    background: 
+        no-repeat center/50% url(../../../public/pictures/rain_small.png),
+        linear-gradient(rgb(28, 50, 90), rgb(40, 76, 161), rgb(63,91,156, 0));
+}
+
+.theme-snow-night {
+    background: 
+        no-repeat center/50% url(../../../public/pictures/snow_small.png),
+        linear-gradient(rgb(28, 50, 90), rgb(40, 76, 161), rgb(63,91,156, 0));
+}

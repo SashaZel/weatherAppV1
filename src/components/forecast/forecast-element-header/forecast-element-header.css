@@ -1,0 +1,26 @@
+/* https://dribbble.com/shots/4443424-Weather-icons-free-download */
+
+.forecast-element-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px dashed rgb(205, 205, 205);
+}
+
+.forecast-element-header__left-child {
+    font-size: 16px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.forecast-element-header__right-child {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.icon-small {
+    width: 61px;
+    height: 45px;
+}

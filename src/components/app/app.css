@@ -1,0 +1,22 @@
+.container {
+    margin: 0 auto;
+    max-width: 600px;
+    background-color: #f5f5f5;
+}
+
+.forecast-container {
+    width: 90%;
+}
+
+.current-weather-loading {
+    padding: 20px calc(50% - 40px);
+    height: 40vh;
+    background: 
+        linear-gradient(rgb(105, 147, 198), rgb(150, 202, 239), rgba(150, 202, 239, 0));
+}
+
+.forecast-loading {
+    margin: 0 auto;
+    width: 80px;
+    height: 40vh;
+}

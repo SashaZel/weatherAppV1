@@ -1,0 +1,17 @@
+.forecast-element-panel {
+    font-size: 12px;
+    border-bottom: 2px solid rgb(71, 71, 71);
+}
+
+.forecast-element-panel-line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.forecast-element-panel-line_cild {
+    width: 50%;
+}
+
+.bold-font {
+    font-weight: bold;
+}
